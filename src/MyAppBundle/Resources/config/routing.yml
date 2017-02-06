@@ -1,0 +1,57 @@
+index:
+    path:     /
+    defaults: { _controller: MyAppBundle:Default:index }
+shop:
+    path:     /shop
+    defaults: { _controller: MyAppBundle:Default:Shop }
+teamm:
+    path:     /team
+    defaults: { _controller: MyAppBundle:Default:Team }
+exp:
+    path:     /exp
+    defaults: { _controller: MyAppBundle:Default:Exp }
+reset:
+    path:     /resetting
+    defaults: { _controller: MyAppBundle:Default:reset }
+admin:
+    path:     /adm
+    defaults: { _controller: MyAppBundle:Admin:accueil }
+admin_home:
+    path:     /home
+    defaults: { _controller: MyAppBundle:Admin:Home }
+admin_page:
+    path:     /admin/
+    defaults: { _controller: MyAppBundle:Admin:Adminpage }
+client_page:
+    path:     /client
+    defaults: { _controller: MyAppBundle:Admin:Clientpage }
+succes:
+    path:     /loginok
+    defaults: { _controller: MyAppBundle:Admin:showinfo }
+edit:
+    path:     /edit
+    defaults: { _controller: MyAppBundle:Default:edit }
+gestionCompte:
+    path:     /gestionCompte
+    defaults: { _controller: MyAppBundle:Admin:gestionCompte }
+indexAdmin:
+    path:     /indexAdmin
+    defaults: { _controller: MyAppBundle:Admin:indexAdmin }
+gestionActualite:
+    path:     /gestionActualite
+    defaults: { _controller: MyAppBundle:Admin:gestionActualite }
+gestionService:
+    path:     /gestionService
+    defaults: { _controller: MyAppBundle:Admin:gestionService }
+gestionEvaluation:
+    path:     /gestionEvaluation
+    defaults: { _controller: MyAppBundle:Admin:gestionEvaluation }
+gestionReservation:
+    path:     /gestionReservation
+    defaults: { _controller: MyAppBundle:Admin:gestionReservation }
+gestionPromotion:
+    path:     /gestionPromotion
+    defaults: { _controller: MyAppBundle:Admin:gestionPromotion }
+gestionArbre:
+    path:     /gestionArbre
+    defaults: { _controller: MyAppBundle:Admin:gestionArbre }
