@@ -32,12 +32,16 @@ class DefaultController extends Controller
 
     public function TeamAction()
 {
-    return $this->render('MyAppBundle:Default:team.html.twig');
+    return $this->render('MyAppBundle:Default:restaurant.html.twig');
 }
     public function ExpAction()
 {
-    return $this->render('MyAppBundle:Default:experience.html.twig');
+    return $this->render('MyAppBundle:Default:cirque.html.twig');
 }
+    public function CinemaAction()
+    {
+        return $this->render('MyAppBundle:Default:cinema.html.twig');
+    }
     public function LoginAction(Request $request)
     {
         /** @var $session \Symfony\Component\HttpFoundation\Session\Session */

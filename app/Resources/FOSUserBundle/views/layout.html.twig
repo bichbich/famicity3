@@ -1,6 +1,6 @@
 {% extends "@MyApp/Default/login.html.twig" %}
-{% block body %}
 
+{% block body %}
 <div class="container">
             {% for type, messages in app.session.flashbag.all() %}
                 {% for message in messages %}

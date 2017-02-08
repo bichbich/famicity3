@@ -1,15 +1,18 @@
 index:
     path:     /
     defaults: { _controller: MyAppBundle:Default:index }
-shop:
-    path:     /shop
+parc:
+    path:     /parc
     defaults: { _controller: MyAppBundle:Default:Shop }
-teamm:
-    path:     /team
+restaurant:
+    path:     /restaurant
     defaults: { _controller: MyAppBundle:Default:Team }
-exp:
-    path:     /exp
+cirque:
+    path:     /cirque
     defaults: { _controller: MyAppBundle:Default:Exp }
+cinema:
+    path:     /cinema
+    defaults: { _controller: MyAppBundle:Default:Cinema }
 reset:
     path:     /resetting
     defaults: { _controller: MyAppBundle:Default:reset }

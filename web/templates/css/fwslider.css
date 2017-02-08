@@ -101,13 +101,15 @@
 }
 @media (max-width:1366px){
    #fwslider .title {
-		margin-left:8%;
 		font-size: 4em;
-	}
+        padding: 207px 0px 10px 119px;
+        margin: 0px;
+   }
 }
-@media (max-width:768px)
+@media (max-width:768px){
 	#fwslider .title {
-		margin-left: 19%;
 		font-size: 3em;
+        padding: 95px 0px 10px 119px;
+        margin: 0px;
 	}
 }

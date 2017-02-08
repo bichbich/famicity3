@@ -15,11 +15,12 @@
 #menu-deroulant ul li {
     /* on enlève ce comportement pour les liens du sous menu */
     display: inherit;
+    background-color:#407ab1;
 }
 #menu-deroulant a {
     text-decoration: blanchedalmond;
     display: block;
-    color: #dff0d8;
+    color: white;
 }
 #menu-deroulant ul {
     position: absolute;
@@ -27,6 +28,7 @@
     left: -999em;
     text-align: left;
     z-index: 1000;
+    background-color:#407ab1;
 }
 #menu-deroulant li:hover ul {
     /* Au survol des li du menu on replace les sous menus */

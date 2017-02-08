@@ -15,11 +15,19 @@ class __TwigTemplate_b3c53cef99932c54990295bb6c6796c2c296db9a7ddf4b924d5fd91182c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< Updated upstream
         $__internal_362de354e30d5621e84b356f2635abf6bf64476ffcb54ac6ee39d94dbd0b08bf = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_362de354e30d5621e84b356f2635abf6bf64476ffcb54ac6ee39d94dbd0b08bf->enter($__internal_362de354e30d5621e84b356f2635abf6bf64476ffcb54ac6ee39d94dbd0b08bf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
 
         $__internal_d6ffa43186c9547faeedeeb0e4a773964afa997097179436b8421883c177a2b5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_d6ffa43186c9547faeedeeb0e4a773964afa997097179436b8421883c177a2b5->enter($__internal_d6ffa43186c9547faeedeeb0e4a773964afa997097179436b8421883c177a2b5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
+=======
+        $__internal_2a50e1a0a7bde06ef395842549cd1e37591d04d92707c8b2c10851d19c4cae79 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_2a50e1a0a7bde06ef395842549cd1e37591d04d92707c8b2c10851d19c4cae79->enter($__internal_2a50e1a0a7bde06ef395842549cd1e37591d04d92707c8b2c10851d19c4cae79_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
+
+        $__internal_23fd72be66f882ca4a6856575bef837e1f71fdb4b37eb55a71ab2d27f46908d4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_23fd72be66f882ca4a6856575bef837e1f71fdb4b37eb55a71ab2d27f46908d4->enter($__internal_23fd72be66f882ca4a6856575bef837e1f71fdb4b37eb55a71ab2d27f46908d4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
+>>>>>>> Stashed changes
 
         // line 1
         echo "<ol class=\"traces logs\">
@@ -52,10 +60,17 @@ class __TwigTemplate_b3c53cef99932c54990295bb6c6796c2c296db9a7ddf4b924d5fd91182c
         echo "</ol>
 ";
         
+<<<<<<< Updated upstream
         $__internal_362de354e30d5621e84b356f2635abf6bf64476ffcb54ac6ee39d94dbd0b08bf->leave($__internal_362de354e30d5621e84b356f2635abf6bf64476ffcb54ac6ee39d94dbd0b08bf_prof);
 
         
         $__internal_d6ffa43186c9547faeedeeb0e4a773964afa997097179436b8421883c177a2b5->leave($__internal_d6ffa43186c9547faeedeeb0e4a773964afa997097179436b8421883c177a2b5_prof);
+=======
+        $__internal_2a50e1a0a7bde06ef395842549cd1e37591d04d92707c8b2c10851d19c4cae79->leave($__internal_2a50e1a0a7bde06ef395842549cd1e37591d04d92707c8b2c10851d19c4cae79_prof);
+
+        
+        $__internal_23fd72be66f882ca4a6856575bef837e1f71fdb4b37eb55a71ab2d27f46908d4->leave($__internal_23fd72be66f882ca4a6856575bef837e1f71fdb4b37eb55a71ab2d27f46908d4_prof);
+>>>>>>> Stashed changes
 
     }
 

@@ -15,11 +15,19 @@ class __TwigTemplate_a3c50c98f5c3eb5dda9a0600fe29d6ddb5659827ad4f118f7962c9a47f9
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< Updated upstream
         $__internal_d149f89fb36abcd0383fe44413523cf478b10c3b64a8e51d6671b4ab234904bc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_d149f89fb36abcd0383fe44413523cf478b10c3b64a8e51d6671b4ab234904bc->enter($__internal_d149f89fb36abcd0383fe44413523cf478b10c3b64a8e51d6671b4ab234904bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Security/Collector/icon.svg"));
 
         $__internal_3810e0aafa4c095627e9e632c51fcf9e4e590d177ddbf5af257199b3a84994d6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_3810e0aafa4c095627e9e632c51fcf9e4e590d177ddbf5af257199b3a84994d6->enter($__internal_3810e0aafa4c095627e9e632c51fcf9e4e590d177ddbf5af257199b3a84994d6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Security/Collector/icon.svg"));
+=======
+        $__internal_2f6035aea1315ef6d289ba8b581cb0e13f4e6a0d3b2f79aa647591066a38371c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_2f6035aea1315ef6d289ba8b581cb0e13f4e6a0d3b2f79aa647591066a38371c->enter($__internal_2f6035aea1315ef6d289ba8b581cb0e13f4e6a0d3b2f79aa647591066a38371c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Security/Collector/icon.svg"));
+
+        $__internal_5f478983ca31d1114a984907717b3ae5bc9dfe89893ab74c057695eb1b218a11 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5f478983ca31d1114a984907717b3ae5bc9dfe89893ab74c057695eb1b218a11->enter($__internal_5f478983ca31d1114a984907717b3ae5bc9dfe89893ab74c057695eb1b218a11_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Security/Collector/icon.svg"));
+>>>>>>> Stashed changes
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -27,10 +35,17 @@ class __TwigTemplate_a3c50c98f5c3eb5dda9a0600fe29d6ddb5659827ad4f118f7962c9a47f9
 </svg>
 ";
         
+<<<<<<< Updated upstream
         $__internal_d149f89fb36abcd0383fe44413523cf478b10c3b64a8e51d6671b4ab234904bc->leave($__internal_d149f89fb36abcd0383fe44413523cf478b10c3b64a8e51d6671b4ab234904bc_prof);
 
         
         $__internal_3810e0aafa4c095627e9e632c51fcf9e4e590d177ddbf5af257199b3a84994d6->leave($__internal_3810e0aafa4c095627e9e632c51fcf9e4e590d177ddbf5af257199b3a84994d6_prof);
+=======
+        $__internal_2f6035aea1315ef6d289ba8b581cb0e13f4e6a0d3b2f79aa647591066a38371c->leave($__internal_2f6035aea1315ef6d289ba8b581cb0e13f4e6a0d3b2f79aa647591066a38371c_prof);
+
+        
+        $__internal_5f478983ca31d1114a984907717b3ae5bc9dfe89893ab74c057695eb1b218a11->leave($__internal_5f478983ca31d1114a984907717b3ae5bc9dfe89893ab74c057695eb1b218a11_prof);
+>>>>>>> Stashed changes
 
     }
 

@@ -114,19 +114,27 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'index',);
         }
 
-        // shop
-        if ($pathinfo === '/shop') {
-            return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::ShopAction',  '_route' => 'shop',);
+        // parc
+        if ($pathinfo === '/parc') {
+            return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::ShopAction',  '_route' => 'parc',);
         }
 
-        // teamm
-        if ($pathinfo === '/team') {
-            return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::TeamAction',  '_route' => 'teamm',);
+        // restaurant
+        if ($pathinfo === '/restaurant') {
+            return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::TeamAction',  '_route' => 'restaurant',);
         }
 
-        // exp
-        if ($pathinfo === '/exp') {
-            return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::ExpAction',  '_route' => 'exp',);
+        if (0 === strpos($pathinfo, '/ci')) {
+            // cirque
+            if ($pathinfo === '/cirque') {
+                return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::ExpAction',  '_route' => 'cirque',);
+            }
+
+            // cinema
+            if ($pathinfo === '/cinema') {
+                return array (  '_controller' => 'MyAppBundle\\Controller\\DefaultController::CinemaAction',  '_route' => 'cinema',);
+            }
+
         }
 
         // reset

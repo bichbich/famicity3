@@ -9,7 +9,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
     <title>Famicity</title>
     <link href="{{ asset('templates/css/menu.css')}}" rel='stylesheet' type='text/css' />
-
     <link href="{{ asset('templates/css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
     <link href="{{ asset('templates/css/style.css')}}" rel='stylesheet' type='text/css' />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -56,37 +55,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 <div class="header">
+    {% block header %}
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="header-left">
-                    <!--div class="logo">
-                       <a href="index.html"><img src="" alt=""/></a>
-                     </div-->
                     <div class="menu">
                         <ul id="menu-deroulant">
                             <li><a href="{{  path('index')}}">accueil</a>
                             <li><a href="#">sortir en famille</a>
-                                <ul>
-                                    <li><a href="{{  path('shop')}}">parc</a></li>
-                                    <li><a href="{{  path('shop')}}">restauration</a></li>
-                                    <li><a href="{{ path('shop')}}">Gastronomie</a></li>
-                                    <li><a href="{{ path('shop')}}">cinema</a></li>
+                                <ul class="sous-menu">
+                                    <li><a href="{{  path('parc')}}">parc</a></li>
+                                    <li><a href="{{  path('restaurant')}}">restauration</a></li>
+                                    <li><a href="{{ path('cirque')}}">Cirque</a></li>
+                                    <li><a href="{{ path('cinema')}}">cinema</a></li>
                                 </ul>
-                            <li><a href="{{  path('teamm')}}">spéciale weekend</a>
-                            <li><a href="{{  path('exp')}}">bon plan</a>
+                            <li><a href="{{  path('restaurant')}}">spéciale weekend</a>
+                            <li><a href="{{  path('cirque')}}">bon plan</a>
                             <li><a href="#">promotions</a>
                         </ul>
-
-
-
                         <script type="text/javascript" src="{{ asset('templates/js/responsive-nav.js')}}"></script>
                     </div>
                     <div class="clear"></div>
                 </div>
                 <div class="header_right">
-
-
                     <!-- start search-->
                     <div class="search-box">
                         <div id="sb-search" class="sb-search">
@@ -95,7 +87,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <input class="sb-search-submit" type="submit" value="">
                                 <span class="sb-icon-search"> </span>
                             </form>
-
                         </div>
                     </div>
                     <!----search-scripts---->
@@ -153,6 +144,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
     </div>
+    {% endblock %}
 </div>
 <div class="main">
     {% block body %}
