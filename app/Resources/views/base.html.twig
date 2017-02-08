@@ -105,6 +105,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         new UISearch( document.getElementById( 'sb-search' ) );
                     </script>
                     <!----//search-scripts---->
+
                     <ul class="icon1 sub-icon1 profile_img">
                         <li><a class="active-icon c1" href="#"> </a>
                             <ul class="sub-icon1 list">
@@ -121,6 +122,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <div class="login_button"><a href="{{ path("fos_user_security_login") }}">Se connecter</a></div>
                                     <div class="check_button"><a href="{{ path("fos_user_security_logout") }}">Se deconnecter</a></div>
                                     <div class="login_button"><a href="{{ path("fos_user_registration_register") }}">S'inscrire</a></div>
+
+                                    <div class="img-responsive"><a herf="{{ ("fos_user_profile_edit") }}"> <img src="{{ asset ('templates/images/edit.png') }}"  alt=""/></a></div>
 </div>
 
 
@@ -129,8 +132,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </ul>
                         </li>
                     </ul>
-                    <ul class="icon1 sub-icon1 profile_img">
 
+
+
+                    <ul class="icon1 sub-icon1 profile_img">
                                 <li class="list_desc"><h4><a href="#">
                                             {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
                                 <li class="profile-pic">
@@ -139,10 +144,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 {% endif %}
                                 </a></h4><span class="actual">
                          </span></li>
-
-
-
                             </ul>
+
                         </li>
                     </ul>
                     <div class="clear"></div>
@@ -162,7 +165,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="col-md-3">
                     <ul class="footer_box">
                         <h4>Famicity Support</h4>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contactez-nous</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
@@ -170,8 +173,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h4>Newsletter</h4>
                         <div class="footer_search">
                             <form>
-                                <input type="text" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
-                                <input type="submit" value="Go">
+                                <input type="text" value="Entez votre email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Entez votre email';}">
+                                <input type="submit" value="Valider">
                             </form>
                         </div>
                     </ul>

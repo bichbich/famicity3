@@ -15,11 +15,11 @@ class __TwigTemplate_41ec4f9c6b76fb2778637341f051278f80a688a735be149561ee700019c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a110824dbac4f6e8d8f46d13211068a1f346db31c216e308b8fe371213e2eb09 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a110824dbac4f6e8d8f46d13211068a1f346db31c216e308b8fe371213e2eb09->enter($__internal_a110824dbac4f6e8d8f46d13211068a1f346db31c216e308b8fe371213e2eb09_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Profile/edit_content.html.twig"));
+        $__internal_3d3d3eeef621543673db74577de280120618e10e2cad9f43c82d079e3b02c3b6 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3d3d3eeef621543673db74577de280120618e10e2cad9f43c82d079e3b02c3b6->enter($__internal_3d3d3eeef621543673db74577de280120618e10e2cad9f43c82d079e3b02c3b6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Profile/edit_content.html.twig"));
 
-        $__internal_45ef03759a38b740361a61e837e3a89c0372e686c7d545d7f3a498c84ef2aee4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_45ef03759a38b740361a61e837e3a89c0372e686c7d545d7f3a498c84ef2aee4->enter($__internal_45ef03759a38b740361a61e837e3a89c0372e686c7d545d7f3a498c84ef2aee4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Profile/edit_content.html.twig"));
+        $__internal_6cb720fb43a6fa29c34d0355e741edf6ab65ba149eaef84f6c1c832039c9c559 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6cb720fb43a6fa29c34d0355e741edf6ab65ba149eaef84f6c1c832039c9c559->enter($__internal_6cb720fb43a6fa29c34d0355e741edf6ab65ba149eaef84f6c1c832039c9c559_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Profile/edit_content.html.twig"));
 
         // line 2
         echo "
@@ -37,16 +37,17 @@ class __TwigTemplate_41ec4f9c6b76fb2778637341f051278f80a688a735be149561ee700019c
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("profile.edit.submit", array(), "FOSUserBundle"), "html", null, true);
         echo "\" />
     </div>
+
 ";
-        // line 8
+        // line 9
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_end');
         echo "
 ";
         
-        $__internal_a110824dbac4f6e8d8f46d13211068a1f346db31c216e308b8fe371213e2eb09->leave($__internal_a110824dbac4f6e8d8f46d13211068a1f346db31c216e308b8fe371213e2eb09_prof);
+        $__internal_3d3d3eeef621543673db74577de280120618e10e2cad9f43c82d079e3b02c3b6->leave($__internal_3d3d3eeef621543673db74577de280120618e10e2cad9f43c82d079e3b02c3b6_prof);
 
         
-        $__internal_45ef03759a38b740361a61e837e3a89c0372e686c7d545d7f3a498c84ef2aee4->leave($__internal_45ef03759a38b740361a61e837e3a89c0372e686c7d545d7f3a498c84ef2aee4_prof);
+        $__internal_6cb720fb43a6fa29c34d0355e741edf6ab65ba149eaef84f6c1c832039c9c559->leave($__internal_6cb720fb43a6fa29c34d0355e741edf6ab65ba149eaef84f6c1c832039c9c559_prof);
 
     }
 
@@ -62,7 +63,7 @@ class __TwigTemplate_41ec4f9c6b76fb2778637341f051278f80a688a735be149561ee700019c
 
     public function getDebugInfo()
     {
-        return array (  42 => 8,  37 => 6,  32 => 4,  28 => 3,  25 => 2,);
+        return array (  43 => 9,  37 => 6,  32 => 4,  28 => 3,  25 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -82,7 +83,8 @@ class __TwigTemplate_41ec4f9c6b76fb2778637341f051278f80a688a735be149561ee700019c
     <div>
         <input type=\"submit\" value=\"{{ 'profile.edit.submit'|trans }}\" />
     </div>
+
 {{ form_end(form) }}
-", "@FOSUser/Profile/edit_content.html.twig", "C:\\wamp\\www\\pidev\\app\\Resources\\FOSUserBundle\\views\\Profile\\edit_content.html.twig");
+", "@FOSUser/Profile/edit_content.html.twig", "C:\\wamp\\www\\famicity3\\app\\Resources\\FOSUserBundle\\views\\Profile\\edit_content.html.twig");
     }
 }

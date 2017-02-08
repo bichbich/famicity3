@@ -17,11 +17,11 @@ class __TwigTemplate_b976f460ddc8cffce8c268c3ece254eda36ce735938fecf191e7a5d3301
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_12dbdd39b11157be7907cca1094eb13dd66bed2a9b0530c9988b38161cd8d2dd = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_12dbdd39b11157be7907cca1094eb13dd66bed2a9b0530c9988b38161cd8d2dd->enter($__internal_12dbdd39b11157be7907cca1094eb13dd66bed2a9b0530c9988b38161cd8d2dd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
+        $__internal_cf7aa13d22dd86b45211d755b552ba37c3272b10461a5c6fe98ebe952011ab36 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_cf7aa13d22dd86b45211d755b552ba37c3272b10461a5c6fe98ebe952011ab36->enter($__internal_cf7aa13d22dd86b45211d755b552ba37c3272b10461a5c6fe98ebe952011ab36_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
 
-        $__internal_7f7c60184b39c03dd5db9d979fe9c1ad7de472613c1f016b275546b01cb354fb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7f7c60184b39c03dd5db9d979fe9c1ad7de472613c1f016b275546b01cb354fb->enter($__internal_7f7c60184b39c03dd5db9d979fe9c1ad7de472613c1f016b275546b01cb354fb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
+        $__internal_06575beb544be16c7163569096027a64e23219489e0838292bf3a149d93da79f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_06575beb544be16c7163569096027a64e23219489e0838292bf3a149d93da79f->enter($__internal_06575beb544be16c7163569096027a64e23219489e0838292bf3a149d93da79f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
 
         // line 1
         echo "<!--A Design by W3layouts
@@ -185,18 +185,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         new UISearch( document.getElementById( 'sb-search' ) );
                     </script>
                     <!----//search-scripts---->
+
                     <ul class=\"icon1 sub-icon1 profile_img\">
                         <li><a class=\"active-icon c1\" href=\"#\"> </a>
                             <ul class=\"sub-icon1 list\">
                                 <div class=\"clear\"></div>
                                 <li class=\"list_desc\"><h4><a href=\"#\">
                                             ";
-        // line 113
+        // line 114
         if ($this->env->getExtension('Symfony\Bridge\Twig\Extension\SecurityExtension')->isGranted("IS_AUTHENTICATED_REMEMBERED")) {
-            // line 114
+            // line 115
             echo "                                <li class=\"profile-pic\">
                                     <a href=\"javascript:void(0)\"> <img src=\"";
-            // line 115
+            // line 116
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("templates/images/user.png"), "html", null, true);
             echo "\"  class=\"img-circle\" width=\"36\"><span class=\"hidden-xs hidden-sm\">";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "user", array()), "username", array()), array("%username%" => $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "user", array()), "username", array())), "FOSUserBundle"), "html", null, true);
@@ -204,22 +205,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </li>
                                 ";
         }
-        // line 118
+        // line 119
         echo "                                </a></h4><span class=\"actual\">
                          </span></li>
                                 <div class=\"login_buttons\">
                                     <div class=\"login_button\"><a href=\"";
-        // line 121
+        // line 122
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_security_login");
         echo "\">Se connecter</a></div>
                                     <div class=\"check_button\"><a href=\"";
-        // line 122
+        // line 123
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_security_logout");
         echo "\">Se deconnecter</a></div>
                                     <div class=\"login_button\"><a href=\"";
-        // line 123
+        // line 124
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_registration_register");
         echo "\">S'inscrire</a></div>
+
+                                    <div class=\"img-responsive\"><a herf=\"";
+        // line 126
+        echo "fos_user_profile_edit";
+        echo "\"> <img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("templates/images/edit.png"), "html", null, true);
+        echo "\"  alt=\"\"/></a></div>
 </div>
 
 
@@ -228,16 +236,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </ul>
                         </li>
                     </ul>
-                    <ul class=\"icon1 sub-icon1 profile_img\">
 
+
+
+                    <ul class=\"icon1 sub-icon1 profile_img\">
                                 <li class=\"list_desc\"><h4><a href=\"#\">
                                             ";
-        // line 135
+        // line 140
         if ($this->env->getExtension('Symfony\Bridge\Twig\Extension\SecurityExtension')->isGranted("IS_AUTHENTICATED_REMEMBERED")) {
-            // line 136
+            // line 141
             echo "                                <li class=\"profile-pic\">
                             <a href=\"javascript:void(0)\"> <img src=\"";
-            // line 137
+            // line 142
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("templates/images/user.png"), "html", null, true);
             echo "\"  class=\"img-circle\" width=\"36\"><span class=\"hidden-xs hidden-sm\">";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "user", array()), "username", array()), array("%username%" => $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "user", array()), "username", array())), "FOSUserBundle"), "html", null, true);
@@ -245,13 +255,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </li>
                                 ";
         }
-        // line 140
+        // line 145
         echo "                                </a></h4><span class=\"actual\">
                          </span></li>
-
-
-
                             </ul>
+
                         </li>
                     </ul>
                     <div class=\"clear\"></div>
@@ -262,63 +270,63 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <div class=\"main\">
     ";
-        // line 155
+        // line 158
         $this->displayBlock('body', $context, $blocks);
-        // line 157
+        // line 160
         echo "</div>
 <div class=\"footer\">
     ";
-        // line 159
+        // line 162
         $this->displayBlock('footer', $context, $blocks);
-        // line 187
+        // line 190
         echo "</div>
 </body>
 </html>
 
 ";
         
-        $__internal_12dbdd39b11157be7907cca1094eb13dd66bed2a9b0530c9988b38161cd8d2dd->leave($__internal_12dbdd39b11157be7907cca1094eb13dd66bed2a9b0530c9988b38161cd8d2dd_prof);
+        $__internal_cf7aa13d22dd86b45211d755b552ba37c3272b10461a5c6fe98ebe952011ab36->leave($__internal_cf7aa13d22dd86b45211d755b552ba37c3272b10461a5c6fe98ebe952011ab36_prof);
 
         
-        $__internal_7f7c60184b39c03dd5db9d979fe9c1ad7de472613c1f016b275546b01cb354fb->leave($__internal_7f7c60184b39c03dd5db9d979fe9c1ad7de472613c1f016b275546b01cb354fb_prof);
+        $__internal_06575beb544be16c7163569096027a64e23219489e0838292bf3a149d93da79f->leave($__internal_06575beb544be16c7163569096027a64e23219489e0838292bf3a149d93da79f_prof);
 
     }
 
-    // line 155
+    // line 158
     public function block_body($context, array $blocks = array())
     {
-        $__internal_f55e6d7e8e911e24c1fd40a2b018d6b3f75b14b7fe4e5fa4a67df6bda044be83 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_f55e6d7e8e911e24c1fd40a2b018d6b3f75b14b7fe4e5fa4a67df6bda044be83->enter($__internal_f55e6d7e8e911e24c1fd40a2b018d6b3f75b14b7fe4e5fa4a67df6bda044be83_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_a586262e6c5901c81f8f3bb7c5286f069b84b802f7f742b8099aae6a5115db40 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a586262e6c5901c81f8f3bb7c5286f069b84b802f7f742b8099aae6a5115db40->enter($__internal_a586262e6c5901c81f8f3bb7c5286f069b84b802f7f742b8099aae6a5115db40_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_9ef550e5958719402b8dddd8cef1cd59398c396c1131d09af14181416cf50d8b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_9ef550e5958719402b8dddd8cef1cd59398c396c1131d09af14181416cf50d8b->enter($__internal_9ef550e5958719402b8dddd8cef1cd59398c396c1131d09af14181416cf50d8b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_6e828ec40091902f8785d886af72131da0aceec5daadc9802a14da045d4f6b79 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6e828ec40091902f8785d886af72131da0aceec5daadc9802a14da045d4f6b79->enter($__internal_6e828ec40091902f8785d886af72131da0aceec5daadc9802a14da045d4f6b79_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 156
+        // line 159
         echo "    ";
         
-        $__internal_9ef550e5958719402b8dddd8cef1cd59398c396c1131d09af14181416cf50d8b->leave($__internal_9ef550e5958719402b8dddd8cef1cd59398c396c1131d09af14181416cf50d8b_prof);
+        $__internal_6e828ec40091902f8785d886af72131da0aceec5daadc9802a14da045d4f6b79->leave($__internal_6e828ec40091902f8785d886af72131da0aceec5daadc9802a14da045d4f6b79_prof);
 
         
-        $__internal_f55e6d7e8e911e24c1fd40a2b018d6b3f75b14b7fe4e5fa4a67df6bda044be83->leave($__internal_f55e6d7e8e911e24c1fd40a2b018d6b3f75b14b7fe4e5fa4a67df6bda044be83_prof);
+        $__internal_a586262e6c5901c81f8f3bb7c5286f069b84b802f7f742b8099aae6a5115db40->leave($__internal_a586262e6c5901c81f8f3bb7c5286f069b84b802f7f742b8099aae6a5115db40_prof);
 
     }
 
-    // line 159
+    // line 162
     public function block_footer($context, array $blocks = array())
     {
-        $__internal_75fb993cd52e1e880849a63ae9a6bc88af979238104d4055b61fdadcf560fcd8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_75fb993cd52e1e880849a63ae9a6bc88af979238104d4055b61fdadcf560fcd8->enter($__internal_75fb993cd52e1e880849a63ae9a6bc88af979238104d4055b61fdadcf560fcd8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
+        $__internal_22e312e40f7005c33570745bd027f8617c4503516bf450fc180966fa6918188d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_22e312e40f7005c33570745bd027f8617c4503516bf450fc180966fa6918188d->enter($__internal_22e312e40f7005c33570745bd027f8617c4503516bf450fc180966fa6918188d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
 
-        $__internal_b85b6ca8a55bf20f607e047cbb409ebbc2340cdb9a6386bf19ef566a71c85fb1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b85b6ca8a55bf20f607e047cbb409ebbc2340cdb9a6386bf19ef566a71c85fb1->enter($__internal_b85b6ca8a55bf20f607e047cbb409ebbc2340cdb9a6386bf19ef566a71c85fb1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
+        $__internal_53524a6f6e721432b6e5601f13dd3ca3aa690154588b1d88f78e2366eff684ec = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_53524a6f6e721432b6e5601f13dd3ca3aa690154588b1d88f78e2366eff684ec->enter($__internal_53524a6f6e721432b6e5601f13dd3ca3aa690154588b1d88f78e2366eff684ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "footer"));
 
-        // line 160
+        // line 163
         echo "        <div class=\"container\">
             <div class=\"row\">
                 <div class=\"col-md-3\">
                     <ul class=\"footer_box\">
                         <h4>Famicity Support</h4>
-                        <li><a href=\"#\">Contact Us</a></li>
+                        <li><a href=\"#\">Contactez-nous</a></li>
                     </ul>
                 </div>
                 <div class=\"col-md-3\">
@@ -326,8 +334,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h4>Newsletter</h4>
                         <div class=\"footer_search\">
                             <form>
-                                <input type=\"text\" value=\"Enter your email\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Enter your email';}\">
-                                <input type=\"submit\" value=\"Go\">
+                                <input type=\"text\" value=\"Entez votre email\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Entez votre email';}\">
+                                <input type=\"submit\" value=\"Valider\">
                             </form>
                         </div>
                     </ul>
@@ -341,10 +349,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
     ";
         
-        $__internal_b85b6ca8a55bf20f607e047cbb409ebbc2340cdb9a6386bf19ef566a71c85fb1->leave($__internal_b85b6ca8a55bf20f607e047cbb409ebbc2340cdb9a6386bf19ef566a71c85fb1_prof);
+        $__internal_53524a6f6e721432b6e5601f13dd3ca3aa690154588b1d88f78e2366eff684ec->leave($__internal_53524a6f6e721432b6e5601f13dd3ca3aa690154588b1d88f78e2366eff684ec_prof);
 
         
-        $__internal_75fb993cd52e1e880849a63ae9a6bc88af979238104d4055b61fdadcf560fcd8->leave($__internal_75fb993cd52e1e880849a63ae9a6bc88af979238104d4055b61fdadcf560fcd8_prof);
+        $__internal_22e312e40f7005c33570745bd027f8617c4503516bf450fc180966fa6918188d->leave($__internal_22e312e40f7005c33570745bd027f8617c4503516bf450fc180966fa6918188d_prof);
 
     }
 
@@ -360,7 +368,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     public function getDebugInfo()
     {
-        return array (  316 => 160,  307 => 159,  297 => 156,  288 => 155,  274 => 187,  272 => 159,  268 => 157,  266 => 155,  249 => 140,  241 => 137,  238 => 136,  236 => 135,  221 => 123,  217 => 122,  213 => 121,  208 => 118,  200 => 115,  197 => 114,  195 => 113,  182 => 103,  178 => 102,  156 => 83,  147 => 77,  143 => 76,  138 => 74,  134 => 73,  130 => 72,  126 => 71,  120 => 68,  73 => 24,  69 => 23,  65 => 22,  60 => 20,  56 => 19,  48 => 14,  44 => 13,  39 => 11,  27 => 1,);
+        return array (  324 => 163,  315 => 162,  305 => 159,  296 => 158,  282 => 190,  280 => 162,  276 => 160,  274 => 158,  259 => 145,  251 => 142,  248 => 141,  246 => 140,  227 => 126,  222 => 124,  218 => 123,  214 => 122,  209 => 119,  201 => 116,  198 => 115,  196 => 114,  182 => 103,  178 => 102,  156 => 83,  147 => 77,  143 => 76,  138 => 74,  134 => 73,  130 => 72,  126 => 71,  120 => 68,  73 => 24,  69 => 23,  65 => 22,  60 => 20,  56 => 19,  48 => 14,  44 => 13,  39 => 11,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -480,6 +488,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         new UISearch( document.getElementById( 'sb-search' ) );
                     </script>
                     <!----//search-scripts---->
+
                     <ul class=\"icon1 sub-icon1 profile_img\">
                         <li><a class=\"active-icon c1\" href=\"#\"> </a>
                             <ul class=\"sub-icon1 list\">
@@ -496,6 +505,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                     <div class=\"login_button\"><a href=\"{{ path(\"fos_user_security_login\") }}\">Se connecter</a></div>
                                     <div class=\"check_button\"><a href=\"{{ path(\"fos_user_security_logout\") }}\">Se deconnecter</a></div>
                                     <div class=\"login_button\"><a href=\"{{ path(\"fos_user_registration_register\") }}\">S'inscrire</a></div>
+
+                                    <div class=\"img-responsive\"><a herf=\"{{ (\"fos_user_profile_edit\") }}\"> <img src=\"{{ asset ('templates/images/edit.png') }}\"  alt=\"\"/></a></div>
 </div>
 
 
@@ -504,8 +515,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </ul>
                         </li>
                     </ul>
-                    <ul class=\"icon1 sub-icon1 profile_img\">
 
+
+
+                    <ul class=\"icon1 sub-icon1 profile_img\">
                                 <li class=\"list_desc\"><h4><a href=\"#\">
                                             {% if is_granted(\"IS_AUTHENTICATED_REMEMBERED\") %}
                                 <li class=\"profile-pic\">
@@ -514,10 +527,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 {% endif %}
                                 </a></h4><span class=\"actual\">
                          </span></li>
-
-
-
                             </ul>
+
                         </li>
                     </ul>
                     <div class=\"clear\"></div>
@@ -537,7 +548,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class=\"col-md-3\">
                     <ul class=\"footer_box\">
                         <h4>Famicity Support</h4>
-                        <li><a href=\"#\">Contact Us</a></li>
+                        <li><a href=\"#\">Contactez-nous</a></li>
                     </ul>
                 </div>
                 <div class=\"col-md-3\">
@@ -545,8 +556,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h4>Newsletter</h4>
                         <div class=\"footer_search\">
                             <form>
-                                <input type=\"text\" value=\"Enter your email\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Enter your email';}\">
-                                <input type=\"submit\" value=\"Go\">
+                                <input type=\"text\" value=\"Entez votre email\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Entez votre email';}\">
+                                <input type=\"submit\" value=\"Valider\">
                             </form>
                         </div>
                     </ul>
@@ -563,6 +574,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </body>
 </html>
 
-", "::base.html.twig", "C:\\wamp\\www\\pidev\\app/Resources\\views/base.html.twig");
+", "::base.html.twig", "C:\\wamp\\www\\famicity3\\app/Resources\\views/base.html.twig");
     }
 }

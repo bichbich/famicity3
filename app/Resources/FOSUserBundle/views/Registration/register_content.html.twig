@@ -15,13 +15,15 @@
 
         <div class="register-top-grid">
                 <h3>INFORMATION PERSONNELLE</h3>
+
                 <div>
-                    <span>{{ form_label(form.username) }}<label>*</label></span>
+                    <span>{{ form_label(form.username, "Nom") }}<label>*</label></span>
                     {{ form_widget(form.username) }}
                 </div>
 
+
                 <div>
-                    <span>{{ form_label(form.email) }}<label>*</label></span>
+                    <span>{{ form_label(form.email, "Email") }}<label>*</label></span>
                     {{ form_widget(form.email) }}
                         </div>
 
@@ -29,13 +31,14 @@
             </div>
             <div class="clear"> </div>
             <div class="register-bottom-grid">
+
                 <h3>INFORMATION DE CONNEXION</h3>
                 <div>
-                    <span>{{ form_label(form.plainPassword.first) }}<label>*</label></span>
+                    <span>{{ form_label(form.plainPassword.first, "Mot de passe") }}<label>*</label></span>
                     {{ form_widget(form.plainPassword.first) }}
                 </div>
                 <div>
-                    <span>{{ form_label(form.plainPassword.second) }}<label>*</label></span>
+                    <span>{{ form_label(form.plainPassword.second, "Confirmer mot de passe") }}<label>*</label></span>
                     {{ form_widget(form.plainPassword.second) }}
                 </div>
                 <div class="clear"> </div>

@@ -15,32 +15,32 @@ class __TwigTemplate_0c768eefab93ef91cef5a0fd49590916e62a8c2cebdfe57c83c0ccb5db2
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_400434b422b4fbaa1159db142ee2c5966cf5166d11be13232fdf7dc3ace60898 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_400434b422b4fbaa1159db142ee2c5966cf5166d11be13232fdf7dc3ace60898->enter($__internal_400434b422b4fbaa1159db142ee2c5966cf5166d11be13232fdf7dc3ace60898_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
+        $__internal_b28650667933b793f46911ea3116c4696ca10140be9f0ffbf422b35652ad8ec8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_b28650667933b793f46911ea3116c4696ca10140be9f0ffbf422b35652ad8ec8->enter($__internal_b28650667933b793f46911ea3116c4696ca10140be9f0ffbf422b35652ad8ec8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
 
-        $__internal_6817281620758fce6320b6b4bb445754560a0500ec54526c1dc67b7b78ddb085 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6817281620758fce6320b6b4bb445754560a0500ec54526c1dc67b7b78ddb085->enter($__internal_6817281620758fce6320b6b4bb445754560a0500ec54526c1dc67b7b78ddb085_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
+        $__internal_8c6332910bc44d3201b33310f14844dc75355f0083312022f5dc30fc13581332 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8c6332910bc44d3201b33310f14844dc75355f0083312022f5dc30fc13581332->enter($__internal_8c6332910bc44d3201b33310f14844dc75355f0083312022f5dc30fc13581332_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
 
         // line 2
         echo "<div class=\"main\">
     <div class=\"shop_top\">
-        <div class=\"container\">
+        <!--div class=\"container\">
             <div class=\"col-md-6\">
                 <div class=\"login-page\">
-                    <h4 class=\"title\">New Customers</h4>
+                    <h4 class=\"title\">S'inscrire</h4>
                     <div class=\"button1\">
                         <a href=\"";
         // line 9
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_registration_register");
-        echo "\"><input type=\"submit\" name=\"Submit\" value=\"Create an Account\"></a>
+        echo "\"><input type=\"submit\" name=\"Submit\" value=\"Créer un compte\"></a>
                     </div>
                     <div class=\"clear\"></div>
                 </div>
-            </div>
+            </div-->
 <div class=\"col-md-6\">
 
     <div class=\"login-title\">
-        <h4 class=\"title\">Registered Customers</h4>
+        <h4 class=\"title\">Vous êtes inscrits</h4>
         <div id=\"loginbox\" class=\"loginbox\">
 
                 ";
@@ -68,36 +68,25 @@ class __TwigTemplate_0c768eefab93ef91cef5a0fd49590916e62a8c2cebdfe57c83c0ccb5db2
         // line 27
         echo "                <fieldset class=\"input\">
                     <p id=\"login-form-username\">
-                        <label for=\"modlgn_username\">";
-        // line 29
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("security.login.username", array(), "FOSUserBundle"), "html", null, true);
-        echo "</label>
+                        <label for=\"modlgn_username\">Nom</label>
                         <input id=\"username\"  type=\"text\"  name=\"_username\" value=\"";
         // line 30
         echo twig_escape_filter($this->env, (isset($context["last_username"]) ? $context["last_username"] : $this->getContext($context, "last_username")), "html", null, true);
         echo "\" required=\"required\">
                     </p>
+
                     <p id=\"login-form-password\">
-                        <label for=\"modlgn_passwd\">";
-        // line 33
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("security.login.password", array(), "FOSUserBundle"), "html", null, true);
-        echo "</label>
+                        <label for=\"modlgn_passwd\">Mot de passe</label>
                         <input id=\"modlgn_passwd\" type=\"password\"  name=\"_password\" required=\"required\">
                     </p>
                     <div class=\"remember\">
                         <p id=\"login-form-remember\">
 
                             <input type=\"checkbox\" id=\"remember_me\" name=\"_remember_me\" value=\"on\" />
-                            <label for=\"modlgn_remember\">";
-        // line 40
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("security.login.remember_me", array(), "FOSUserBundle"), "html", null, true);
-        echo "</label>
+                            <label for=\"modlgn_remember\">Rester connecter</label>
                         </p>
 
-                        <input type=\"submit\" id=\"_submit\" class=\"button\" name=\"_submit\" value=\"";
-        // line 43
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("security.login.submit", array(), "FOSUserBundle"), "html", null, true);
-        echo "\" />
+                        <input type=\"submit\" id=\"_submit\" class=\"button\" name=\"_submit\" value=\"Se connecter\" />
 
                     </div>
                 </fieldset>
@@ -106,10 +95,10 @@ class __TwigTemplate_0c768eefab93ef91cef5a0fd49590916e62a8c2cebdfe57c83c0ccb5db2
     </div>
     </div></div></div></div></div>";
         
-        $__internal_400434b422b4fbaa1159db142ee2c5966cf5166d11be13232fdf7dc3ace60898->leave($__internal_400434b422b4fbaa1159db142ee2c5966cf5166d11be13232fdf7dc3ace60898_prof);
+        $__internal_b28650667933b793f46911ea3116c4696ca10140be9f0ffbf422b35652ad8ec8->leave($__internal_b28650667933b793f46911ea3116c4696ca10140be9f0ffbf422b35652ad8ec8_prof);
 
         
-        $__internal_6817281620758fce6320b6b4bb445754560a0500ec54526c1dc67b7b78ddb085->leave($__internal_6817281620758fce6320b6b4bb445754560a0500ec54526c1dc67b7b78ddb085_prof);
+        $__internal_8c6332910bc44d3201b33310f14844dc75355f0083312022f5dc30fc13581332->leave($__internal_8c6332910bc44d3201b33310f14844dc75355f0083312022f5dc30fc13581332_prof);
 
     }
 
@@ -125,7 +114,7 @@ class __TwigTemplate_0c768eefab93ef91cef5a0fd49590916e62a8c2cebdfe57c83c0ccb5db2
 
     public function getDebugInfo()
     {
-        return array (  99 => 43,  93 => 40,  83 => 33,  77 => 30,  73 => 29,  69 => 27,  63 => 25,  61 => 24,  56 => 23,  50 => 21,  48 => 20,  34 => 9,  25 => 2,);
+        return array (  74 => 30,  69 => 27,  63 => 25,  61 => 24,  56 => 23,  50 => 21,  48 => 20,  34 => 9,  25 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -141,20 +130,20 @@ class __TwigTemplate_0c768eefab93ef91cef5a0fd49590916e62a8c2cebdfe57c83c0ccb5db2
         return new Twig_Source("{% trans_default_domain 'FOSUserBundle' %}
 <div class=\"main\">
     <div class=\"shop_top\">
-        <div class=\"container\">
+        <!--div class=\"container\">
             <div class=\"col-md-6\">
                 <div class=\"login-page\">
-                    <h4 class=\"title\">New Customers</h4>
+                    <h4 class=\"title\">S'inscrire</h4>
                     <div class=\"button1\">
-                        <a href=\"{{ path(\"fos_user_registration_register\") }}\"><input type=\"submit\" name=\"Submit\" value=\"Create an Account\"></a>
+                        <a href=\"{{ path(\"fos_user_registration_register\") }}\"><input type=\"submit\" name=\"Submit\" value=\"Créer un compte\"></a>
                     </div>
                     <div class=\"clear\"></div>
                 </div>
-            </div>
+            </div-->
 <div class=\"col-md-6\">
 
     <div class=\"login-title\">
-        <h4 class=\"title\">Registered Customers</h4>
+        <h4 class=\"title\">Vous êtes inscrits</h4>
         <div id=\"loginbox\" class=\"loginbox\">
 
                 {% if error %}
@@ -166,27 +155,28 @@ class __TwigTemplate_0c768eefab93ef91cef5a0fd49590916e62a8c2cebdfe57c83c0ccb5db2
                     {% endif %}
                 <fieldset class=\"input\">
                     <p id=\"login-form-username\">
-                        <label for=\"modlgn_username\">{{ 'security.login.username'|trans }}</label>
+                        <label for=\"modlgn_username\">Nom</label>
                         <input id=\"username\"  type=\"text\"  name=\"_username\" value=\"{{ last_username }}\" required=\"required\">
                     </p>
+
                     <p id=\"login-form-password\">
-                        <label for=\"modlgn_passwd\">{{ 'security.login.password'|trans }}</label>
+                        <label for=\"modlgn_passwd\">Mot de passe</label>
                         <input id=\"modlgn_passwd\" type=\"password\"  name=\"_password\" required=\"required\">
                     </p>
                     <div class=\"remember\">
                         <p id=\"login-form-remember\">
 
                             <input type=\"checkbox\" id=\"remember_me\" name=\"_remember_me\" value=\"on\" />
-                            <label for=\"modlgn_remember\">{{ 'security.login.remember_me'|trans }}</label>
+                            <label for=\"modlgn_remember\">Rester connecter</label>
                         </p>
 
-                        <input type=\"submit\" id=\"_submit\" class=\"button\" name=\"_submit\" value=\"{{ 'security.login.submit'|trans }}\" />
+                        <input type=\"submit\" id=\"_submit\" class=\"button\" name=\"_submit\" value=\"Se connecter\" />
 
                     </div>
                 </fieldset>
             </form>
         </div>
     </div>
-    </div></div></div></div></div>", "@FOSUser/Security/login_content.html.twig", "C:\\wamp\\www\\pidev\\app\\Resources\\FOSUserBundle\\views\\Security\\login_content.html.twig");
+    </div></div></div></div></div>", "@FOSUser/Security/login_content.html.twig", "C:\\wamp\\www\\famicity3\\app\\Resources\\FOSUserBundle\\views\\Security\\login_content.html.twig");
     }
 }

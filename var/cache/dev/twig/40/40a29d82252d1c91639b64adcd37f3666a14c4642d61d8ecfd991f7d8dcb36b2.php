@@ -15,11 +15,11 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_29dbcd05cd5d8f1f96983ff1f248a1d889af3227ab45d39451b704b928002e29 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_29dbcd05cd5d8f1f96983ff1f248a1d889af3227ab45d39451b704b928002e29->enter($__internal_29dbcd05cd5d8f1f96983ff1f248a1d889af3227ab45d39451b704b928002e29_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Registration/register_content.html.twig"));
+        $__internal_94454eab6b6c45d44214cada85d71b122c8960e852a47ada23ac6e3aeaef39e2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_94454eab6b6c45d44214cada85d71b122c8960e852a47ada23ac6e3aeaef39e2->enter($__internal_94454eab6b6c45d44214cada85d71b122c8960e852a47ada23ac6e3aeaef39e2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Registration/register_content.html.twig"));
 
-        $__internal_746b911333c89ca3c4e9fe773ed5b1f9ffe6b2761922f0cd1efa50324eacc8d8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_746b911333c89ca3c4e9fe773ed5b1f9ffe6b2761922f0cd1efa50324eacc8d8->enter($__internal_746b911333c89ca3c4e9fe773ed5b1f9ffe6b2761922f0cd1efa50324eacc8d8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Registration/register_content.html.twig"));
+        $__internal_aacb133cb557c947cd69d088cc7946186ba9fc2db72f40851e20ccad392d9db8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_aacb133cb557c947cd69d088cc7946186ba9fc2db72f40851e20ccad392d9db8->enter($__internal_aacb133cb557c947cd69d088cc7946186ba9fc2db72f40851e20ccad392d9db8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Registration/register_content.html.twig"));
 
         // line 2
         echo "<script>
@@ -41,24 +41,26 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
 
         <div class=\"register-top-grid\">
                 <h3>INFORMATION PERSONNELLE</h3>
+
                 <div>
                     <span>";
-        // line 19
-        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "username", array()), 'label');
+        // line 20
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "username", array()), 'label', array("label" => "Nom"));
         echo "<label>*</label></span>
                     ";
-        // line 20
+        // line 21
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "username", array()), 'widget');
         echo "
                 </div>
 
+
                 <div>
                     <span>";
-        // line 24
-        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "email", array()), 'label');
+        // line 26
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "email", array()), 'label', array("label" => "Email"));
         echo "<label>*</label></span>
                     ";
-        // line 25
+        // line 27
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "email", array()), 'widget');
         echo "
                         </div>
@@ -67,24 +69,25 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
             </div>
             <div class=\"clear\"> </div>
             <div class=\"register-bottom-grid\">
+
                 <h3>INFORMATION DE CONNEXION</h3>
                 <div>
                     <span>";
-        // line 34
-        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "plainPassword", array()), "first", array()), 'label');
+        // line 37
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "plainPassword", array()), "first", array()), 'label', array("label" => "Mot de passe"));
         echo "<label>*</label></span>
                     ";
-        // line 35
+        // line 38
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "plainPassword", array()), "first", array()), 'widget');
         echo "
                 </div>
                 <div>
                     <span>";
-        // line 38
-        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "plainPassword", array()), "second", array()), 'label');
+        // line 41
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "plainPassword", array()), "second", array()), 'label', array("label" => "Confirmer mot de passe"));
         echo "<label>*</label></span>
                     ";
-        // line 39
+        // line 42
         echo $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->searchAndRenderBlock($this->getAttribute($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "plainPassword", array()), "second", array()), 'widget');
         echo "
                 </div>
@@ -93,12 +96,12 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
             <div class=\"clear\"> </div>
 <div>
             <input type=\"submit\" value=\"";
-        // line 45
+        // line 48
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("registration.submit", array(), "FOSUserBundle"), "html", null, true);
         echo "\" />
         </div>
         ";
-        // line 47
+        // line 50
         echo         $this->env->getRuntime('Symfony\Bridge\Twig\Form\TwigRenderer')->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_end');
         echo "
     </div>
@@ -114,10 +117,10 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
 
 ";
         
-        $__internal_29dbcd05cd5d8f1f96983ff1f248a1d889af3227ab45d39451b704b928002e29->leave($__internal_29dbcd05cd5d8f1f96983ff1f248a1d889af3227ab45d39451b704b928002e29_prof);
+        $__internal_94454eab6b6c45d44214cada85d71b122c8960e852a47ada23ac6e3aeaef39e2->leave($__internal_94454eab6b6c45d44214cada85d71b122c8960e852a47ada23ac6e3aeaef39e2_prof);
 
         
-        $__internal_746b911333c89ca3c4e9fe773ed5b1f9ffe6b2761922f0cd1efa50324eacc8d8->leave($__internal_746b911333c89ca3c4e9fe773ed5b1f9ffe6b2761922f0cd1efa50324eacc8d8_prof);
+        $__internal_aacb133cb557c947cd69d088cc7946186ba9fc2db72f40851e20ccad392d9db8->leave($__internal_aacb133cb557c947cd69d088cc7946186ba9fc2db72f40851e20ccad392d9db8_prof);
 
     }
 
@@ -133,7 +136,7 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
 
     public function getDebugInfo()
     {
-        return array (  102 => 47,  97 => 45,  88 => 39,  84 => 38,  78 => 35,  74 => 34,  62 => 25,  58 => 24,  51 => 20,  47 => 19,  39 => 14,  25 => 2,);
+        return array (  105 => 50,  100 => 48,  91 => 42,  87 => 41,  81 => 38,  77 => 37,  64 => 27,  60 => 26,  52 => 21,  48 => 20,  39 => 14,  25 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -163,13 +166,15 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
 
         <div class=\"register-top-grid\">
                 <h3>INFORMATION PERSONNELLE</h3>
+
                 <div>
-                    <span>{{ form_label(form.username) }}<label>*</label></span>
+                    <span>{{ form_label(form.username, \"Nom\") }}<label>*</label></span>
                     {{ form_widget(form.username) }}
                 </div>
 
+
                 <div>
-                    <span>{{ form_label(form.email) }}<label>*</label></span>
+                    <span>{{ form_label(form.email, \"Email\") }}<label>*</label></span>
                     {{ form_widget(form.email) }}
                         </div>
 
@@ -177,13 +182,14 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
             </div>
             <div class=\"clear\"> </div>
             <div class=\"register-bottom-grid\">
+
                 <h3>INFORMATION DE CONNEXION</h3>
                 <div>
-                    <span>{{ form_label(form.plainPassword.first) }}<label>*</label></span>
+                    <span>{{ form_label(form.plainPassword.first, \"Mot de passe\") }}<label>*</label></span>
                     {{ form_widget(form.plainPassword.first) }}
                 </div>
                 <div>
-                    <span>{{ form_label(form.plainPassword.second) }}<label>*</label></span>
+                    <span>{{ form_label(form.plainPassword.second, \"Confirmer mot de passe\") }}<label>*</label></span>
                     {{ form_widget(form.plainPassword.second) }}
                 </div>
                 <div class=\"clear\"> </div>
@@ -204,6 +210,6 @@ class __TwigTemplate_eca8602480a261721a10e836793757675ad55592a543712d2b93853d255
 
 
 
-", "@FOSUser/Registration/register_content.html.twig", "C:\\wamp\\www\\pidev\\app\\Resources\\FOSUserBundle\\views\\Registration\\register_content.html.twig");
+", "@FOSUser/Registration/register_content.html.twig", "C:\\wamp\\www\\famicity3\\app\\Resources\\FOSUserBundle\\views\\Registration\\register_content.html.twig");
     }
 }
