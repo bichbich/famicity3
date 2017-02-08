@@ -7271,6 +7271,7 @@ onfirmation_token_9, t0.password_requested_at AS password_requested_at_10, t0.ro
 [2017-02-06 19:39:04] security.DEBUG: User was reloaded from a user provider. {"username":"hiiiba","provider":"FOS\\UserBundle\\Security\\UserProvider"} []
 [2017-02-06 19:39:05] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [2017-02-07 17:57:24] request.INFO: Matched route "index". {"route":"index","route_parameters":{"_controller":"MyAppBundle\\Controller\\DefaultController::indexAction","_route":"index"},"request_uri":"http://localhost/famicity3/web/app_dev.php/","method":"GET"} []
 [2017-02-07 17:57:29] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2017-02-07 17:57:35] request.INFO: Matched route "_wdt". {"route":"_wdt","route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"447100","_route":"_wdt"},"request_uri":"http://localhost/famicity3/web/app_dev.php/_wdt/447100","method":"GET"} []
@@ -8451,6 +8452,8 @@ onfirmation_token_9, t0.password_requested_at AS password_requested_at_10, t0.ro
 [2017-02-08 11:43:03] security.DEBUG: User was reloaded from a user provider. {"username":"asma","provider":"FOS\\UserBundle\\Security\\UserProvider"} []
 [2017-02-08 11:43:03] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []
 =======
+=======
+>>>>>>> Stashed changes
 [2017-02-07 13:59:14] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /layout"" at C:\wamp\www\famicity3\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 125 {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0): No route found for \"GET /layout\" at C:\\wamp\\www\\famicity3\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\EventListener\\RouterListener.php:125, Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException(code: 0):  at C:\\wamp\\www\\famicity3\\var\\cache\\dev\\appDevDebugProjectContainerUrlMatcher.php:409)"} []
 [2017-02-07 13:59:21] request.INFO: Matched route "_wdt". {"route":"_wdt","route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"046324","_route":"_wdt"},"request_uri":"http://localhost/famicity3/web/app_dev.php/_wdt/046324","method":"GET"} []
 [2017-02-07 13:59:22] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
@@ -9354,4 +9357,7 @@ onfirmation_token_9, t0.password_requested_at AS password_requested_at_10, t0.ro
 [2017-02-07 22:36:20] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2017-02-07 22:36:21] request.INFO: Matched route "_wdt". {"route":"_wdt","route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"8db026","_route":"_wdt"},"request_uri":"http://localhost/famicity3/web/app_dev.php/_wdt/8db026","method":"GET"} []
 [2017-02-07 22:36:21] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

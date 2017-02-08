@@ -16,11 +16,19 @@ class __TwigTemplate_a281210842a6ec7e8a1aa80f338ad8ced698d5a18f5db918c6dbb734ee3
     protected function doDisplay(array $context, array $blocks = array())
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_fe41691207a4bffd4c4c08b9aa34f8d5584836ca0b1ecf8fd1a92e097ab5b15e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_fe41691207a4bffd4c4c08b9aa34f8d5584836ca0b1ecf8fd1a92e097ab5b15e->enter($__internal_fe41691207a4bffd4c4c08b9aa34f8d5584836ca0b1ecf8fd1a92e097ab5b15e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
 
         $__internal_5c8fb42e97789c0e85b0f2ca4c888382b9ea9b6d6dc070e46e0db6ad5c35c37e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_5c8fb42e97789c0e85b0f2ca4c888382b9ea9b6d6dc070e46e0db6ad5c35c37e->enter($__internal_5c8fb42e97789c0e85b0f2ca4c888382b9ea9b6d6dc070e46e0db6ad5c35c37e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
+=======
+        $__internal_ca41442b282e41e650c99f9e808018cefd3dfd00d8e7c039cd5f2e7e64341190 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ca41442b282e41e650c99f9e808018cefd3dfd00d8e7c039cd5f2e7e64341190->enter($__internal_ca41442b282e41e650c99f9e808018cefd3dfd00d8e7c039cd5f2e7e64341190_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
+
+        $__internal_034d2af54bf7b44b08a568d9ba58a441d282be0507a6c990f162379bb424db4a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_034d2af54bf7b44b08a568d9ba58a441d282be0507a6c990f162379bb424db4a->enter($__internal_034d2af54bf7b44b08a568d9ba58a441d282be0507a6c990f162379bb424db4a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
+>>>>>>> Stashed changes
 =======
         $__internal_ca41442b282e41e650c99f9e808018cefd3dfd00d8e7c039cd5f2e7e64341190 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_ca41442b282e41e650c99f9e808018cefd3dfd00d8e7c039cd5f2e7e64341190->enter($__internal_ca41442b282e41e650c99f9e808018cefd3dfd00d8e7c039cd5f2e7e64341190_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
@@ -39,15 +47,21 @@ class __TwigTemplate_a281210842a6ec7e8a1aa80f338ad8ced698d5a18f5db918c6dbb734ee3
 ";
         
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_fe41691207a4bffd4c4c08b9aa34f8d5584836ca0b1ecf8fd1a92e097ab5b15e->leave($__internal_fe41691207a4bffd4c4c08b9aa34f8d5584836ca0b1ecf8fd1a92e097ab5b15e_prof);
 
         
         $__internal_5c8fb42e97789c0e85b0f2ca4c888382b9ea9b6d6dc070e46e0db6ad5c35c37e->leave($__internal_5c8fb42e97789c0e85b0f2ca4c888382b9ea9b6d6dc070e46e0db6ad5c35c37e_prof);
 =======
+=======
+>>>>>>> Stashed changes
         $__internal_ca41442b282e41e650c99f9e808018cefd3dfd00d8e7c039cd5f2e7e64341190->leave($__internal_ca41442b282e41e650c99f9e808018cefd3dfd00d8e7c039cd5f2e7e64341190_prof);
 
         
         $__internal_034d2af54bf7b44b08a568d9ba58a441d282be0507a6c990f162379bb424db4a->leave($__internal_034d2af54bf7b44b08a568d9ba58a441d282be0507a6c990f162379bb424db4a_prof);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     }

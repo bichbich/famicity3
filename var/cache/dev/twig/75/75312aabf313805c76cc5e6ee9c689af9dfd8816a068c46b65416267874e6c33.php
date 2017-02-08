@@ -16,11 +16,19 @@ class __TwigTemplate_4800c90d314f2b3f210263fff1850b1041f5e3c58d36544abb5412114ed
     protected function doDisplay(array $context, array $blocks = array())
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_b9887ab4f77a9df4ee50da7baf1bf64ba3fc28a82b6bbfadd69456548fa5f521 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_b9887ab4f77a9df4ee50da7baf1bf64ba3fc28a82b6bbfadd69456548fa5f521->enter($__internal_b9887ab4f77a9df4ee50da7baf1bf64ba3fc28a82b6bbfadd69456548fa5f521_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.html.twig"));
 
         $__internal_f52088fd7c1aad8a0c344361caafb3449070740a70236a294f8497e05a175f22 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_f52088fd7c1aad8a0c344361caafb3449070740a70236a294f8497e05a175f22->enter($__internal_f52088fd7c1aad8a0c344361caafb3449070740a70236a294f8497e05a175f22_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.html.twig"));
+=======
+        $__internal_99989c4ae170f3f231bec2fd6f107df96674a64b679edcac90461dae72f6667a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_99989c4ae170f3f231bec2fd6f107df96674a64b679edcac90461dae72f6667a->enter($__internal_99989c4ae170f3f231bec2fd6f107df96674a64b679edcac90461dae72f6667a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.html.twig"));
+
+        $__internal_a2a432c1c4191275e733d2bedec0793f6f615780fa091e8bdf88974ad91f6c4a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a2a432c1c4191275e733d2bedec0793f6f615780fa091e8bdf88974ad91f6c4a->enter($__internal_a2a432c1c4191275e733d2bedec0793f6f615780fa091e8bdf88974ad91f6c4a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.html.twig"));
+>>>>>>> Stashed changes
 =======
         $__internal_99989c4ae170f3f231bec2fd6f107df96674a64b679edcac90461dae72f6667a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_99989c4ae170f3f231bec2fd6f107df96674a64b679edcac90461dae72f6667a->enter($__internal_99989c4ae170f3f231bec2fd6f107df96674a64b679edcac90461dae72f6667a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.html.twig"));
@@ -97,7 +105,11 @@ class __TwigTemplate_4800c90d314f2b3f210263fff1850b1041f5e3c58d36544abb5412114ed
                 // line 17
                 echo "            ";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 $__internal_e7050d8ff439f6d76ff7f850529ed85280de9eef03cb8c7779c7ff716ba59dc4 = array("collector" => $this->getAttribute(                // line 18
+=======
+                $__internal_d4941ab02343c51d19eb3bc05d316ca5448907667ba6f2f39e879311b77e340a = array("collector" => $this->getAttribute(                // line 18
+>>>>>>> Stashed changes
 =======
                 $__internal_d4941ab02343c51d19eb3bc05d316ca5448907667ba6f2f39e879311b77e340a = array("collector" => $this->getAttribute(                // line 18
 >>>>>>> Stashed changes
@@ -109,17 +121,23 @@ $context["name"], "profiler_markup_version" =>                 // line 22
 (isset($context["csp_script_nonce"]) ? $context["csp_script_nonce"] : $this->getContext($context, "csp_script_nonce")), "csp_style_nonce" =>                 // line 24
 (isset($context["csp_style_nonce"]) ? $context["csp_style_nonce"] : $this->getContext($context, "csp_style_nonce")));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 if (!is_array($__internal_e7050d8ff439f6d76ff7f850529ed85280de9eef03cb8c7779c7ff716ba59dc4)) {
                     throw new Twig_Error_Runtime('Variables passed to the "with" tag must be a hash.');
                 }
                 $context['_parent'] = $context;
                 $context = array_merge($context, $__internal_e7050d8ff439f6d76ff7f850529ed85280de9eef03cb8c7779c7ff716ba59dc4);
 =======
+=======
+>>>>>>> Stashed changes
                 if (!is_array($__internal_d4941ab02343c51d19eb3bc05d316ca5448907667ba6f2f39e879311b77e340a)) {
                     throw new Twig_Error_Runtime('Variables passed to the "with" tag must be a hash.');
                 }
                 $context['_parent'] = $context;
                 $context = array_merge($context, $__internal_d4941ab02343c51d19eb3bc05d316ca5448907667ba6f2f39e879311b77e340a);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 // line 26
                 echo "                ";
@@ -166,15 +184,21 @@ $context["name"], "profiler_markup_version" =>                 // line 22
 ";
         
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_b9887ab4f77a9df4ee50da7baf1bf64ba3fc28a82b6bbfadd69456548fa5f521->leave($__internal_b9887ab4f77a9df4ee50da7baf1bf64ba3fc28a82b6bbfadd69456548fa5f521_prof);
 
         
         $__internal_f52088fd7c1aad8a0c344361caafb3449070740a70236a294f8497e05a175f22->leave($__internal_f52088fd7c1aad8a0c344361caafb3449070740a70236a294f8497e05a175f22_prof);
 =======
+=======
+>>>>>>> Stashed changes
         $__internal_99989c4ae170f3f231bec2fd6f107df96674a64b679edcac90461dae72f6667a->leave($__internal_99989c4ae170f3f231bec2fd6f107df96674a64b679edcac90461dae72f6667a_prof);
 
         
         $__internal_a2a432c1c4191275e733d2bedec0793f6f615780fa091e8bdf88974ad91f6c4a->leave($__internal_a2a432c1c4191275e733d2bedec0793f6f615780fa091e8bdf88974ad91f6c4a_prof);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     }

@@ -16,11 +16,19 @@ class __TwigTemplate_c454783375896859fd2bca429cdba864b2bcfad1eb9e8cc2bbca29df315
     protected function doDisplay(array $context, array $blocks = array())
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_704427f7c68c220665eb1702c7bd6554de097e6cbc158a2c3447d2e4051784c5 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_704427f7c68c220665eb1702c7bd6554de097e6cbc158a2c3447d2e4051784c5->enter($__internal_704427f7c68c220665eb1702c7bd6554de097e6cbc158a2c3447d2e4051784c5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces_text.html.twig"));
 
         $__internal_ab7ddfca2c5569d822b5dee05a5d9fcc853b9319dd2980ad1cc89815df0dd76e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_ab7ddfca2c5569d822b5dee05a5d9fcc853b9319dd2980ad1cc89815df0dd76e->enter($__internal_ab7ddfca2c5569d822b5dee05a5d9fcc853b9319dd2980ad1cc89815df0dd76e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces_text.html.twig"));
+=======
+        $__internal_38406182e2a416a5d90fa274d58e50653dc349e8d94f64806823f648fd74e222 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_38406182e2a416a5d90fa274d58e50653dc349e8d94f64806823f648fd74e222->enter($__internal_38406182e2a416a5d90fa274d58e50653dc349e8d94f64806823f648fd74e222_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces_text.html.twig"));
+
+        $__internal_bf8add7a50b92d3d3c4cd85e5110e776413581be957650b77a93e51cddd91ece = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bf8add7a50b92d3d3c4cd85e5110e776413581be957650b77a93e51cddd91ece->enter($__internal_bf8add7a50b92d3d3c4cd85e5110e776413581be957650b77a93e51cddd91ece_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces_text.html.twig"));
+>>>>>>> Stashed changes
 =======
         $__internal_38406182e2a416a5d90fa274d58e50653dc349e8d94f64806823f648fd74e222 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_38406182e2a416a5d90fa274d58e50653dc349e8d94f64806823f648fd74e222->enter($__internal_38406182e2a416a5d90fa274d58e50653dc349e8d94f64806823f648fd74e222_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces_text.html.twig"));
@@ -74,15 +82,21 @@ class __TwigTemplate_c454783375896859fd2bca429cdba864b2bcfad1eb9e8cc2bbca29df315
 ";
         
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_704427f7c68c220665eb1702c7bd6554de097e6cbc158a2c3447d2e4051784c5->leave($__internal_704427f7c68c220665eb1702c7bd6554de097e6cbc158a2c3447d2e4051784c5_prof);
 
         
         $__internal_ab7ddfca2c5569d822b5dee05a5d9fcc853b9319dd2980ad1cc89815df0dd76e->leave($__internal_ab7ddfca2c5569d822b5dee05a5d9fcc853b9319dd2980ad1cc89815df0dd76e_prof);
 =======
+=======
+>>>>>>> Stashed changes
         $__internal_38406182e2a416a5d90fa274d58e50653dc349e8d94f64806823f648fd74e222->leave($__internal_38406182e2a416a5d90fa274d58e50653dc349e8d94f64806823f648fd74e222_prof);
 
         
         $__internal_bf8add7a50b92d3d3c4cd85e5110e776413581be957650b77a93e51cddd91ece->leave($__internal_bf8add7a50b92d3d3c4cd85e5110e776413581be957650b77a93e51cddd91ece_prof);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     }

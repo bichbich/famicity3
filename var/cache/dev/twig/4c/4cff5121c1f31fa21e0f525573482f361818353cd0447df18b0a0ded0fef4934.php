@@ -16,11 +16,19 @@ class __TwigTemplate_48e1c724367e0c99230b1496eb28acc0ad2024dddaf9ff3cbc3401537c5
     protected function doDisplay(array $context, array $blocks = array())
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_d7d6d6ac66b74307628b2c153b93147addf4cad7db9799117a28ccafb7d34ef7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_d7d6d6ac66b74307628b2c153b93147addf4cad7db9799117a28ccafb7d34ef7->enter($__internal_d7d6d6ac66b74307628b2c153b93147addf4cad7db9799117a28ccafb7d34ef7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_js.html.twig"));
 
         $__internal_b1b42ca22b87f1a12463b6aa1bf4560ce7a5e3b5822604ba21d17344dff4e827 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_b1b42ca22b87f1a12463b6aa1bf4560ce7a5e3b5822604ba21d17344dff4e827->enter($__internal_b1b42ca22b87f1a12463b6aa1bf4560ce7a5e3b5822604ba21d17344dff4e827_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_js.html.twig"));
+=======
+        $__internal_27f0a36929d2061934e39e72c479af36e86c0321b27cf17f27d1952428ab86fb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_27f0a36929d2061934e39e72c479af36e86c0321b27cf17f27d1952428ab86fb->enter($__internal_27f0a36929d2061934e39e72c479af36e86c0321b27cf17f27d1952428ab86fb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_js.html.twig"));
+
+        $__internal_95def3734106d9ad7978c6e0a4c04c7a5e556509592608e5076e338c0126be73 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_95def3734106d9ad7978c6e0a4c04c7a5e556509592608e5076e338c0126be73->enter($__internal_95def3734106d9ad7978c6e0a4c04c7a5e556509592608e5076e338c0126be73_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_js.html.twig"));
+>>>>>>> Stashed changes
 =======
         $__internal_27f0a36929d2061934e39e72c479af36e86c0321b27cf17f27d1952428ab86fb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_27f0a36929d2061934e39e72c479af36e86c0321b27cf17f27d1952428ab86fb->enter($__internal_27f0a36929d2061934e39e72c479af36e86c0321b27cf17f27d1952428ab86fb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_js.html.twig"));
@@ -202,15 +210,21 @@ class __TwigTemplate_48e1c724367e0c99230b1496eb28acc0ad2024dddaf9ff3cbc3401537c5
 ";
         
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_d7d6d6ac66b74307628b2c153b93147addf4cad7db9799117a28ccafb7d34ef7->leave($__internal_d7d6d6ac66b74307628b2c153b93147addf4cad7db9799117a28ccafb7d34ef7_prof);
 
         
         $__internal_b1b42ca22b87f1a12463b6aa1bf4560ce7a5e3b5822604ba21d17344dff4e827->leave($__internal_b1b42ca22b87f1a12463b6aa1bf4560ce7a5e3b5822604ba21d17344dff4e827_prof);
 =======
+=======
+>>>>>>> Stashed changes
         $__internal_27f0a36929d2061934e39e72c479af36e86c0321b27cf17f27d1952428ab86fb->leave($__internal_27f0a36929d2061934e39e72c479af36e86c0321b27cf17f27d1952428ab86fb_prof);
 
         
         $__internal_95def3734106d9ad7978c6e0a4c04c7a5e556509592608e5076e338c0126be73->leave($__internal_95def3734106d9ad7978c6e0a4c04c7a5e556509592608e5076e338c0126be73_prof);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     }

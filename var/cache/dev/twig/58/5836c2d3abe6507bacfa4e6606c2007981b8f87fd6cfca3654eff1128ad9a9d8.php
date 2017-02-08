@@ -16,11 +16,19 @@ class __TwigTemplate_308d50b6a9e7cd5ff8a69fc8438a817815f428fc3f5113ad36abd07a376
     protected function doDisplay(array $context, array $blocks = array())
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_2edad2086058bb053d0b73c842b7845dc4cb817f948dda696db24a23b8b3f331 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_2edad2086058bb053d0b73c842b7845dc4cb817f948dda696db24a23b8b3f331->enter($__internal_2edad2086058bb053d0b73c842b7845dc4cb817f948dda696db24a23b8b3f331_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/twig.svg"));
 
         $__internal_37b1b5790ff36c7fcf27ba30564b0de0b98b8678dc60142a254f047abcc34ac3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_37b1b5790ff36c7fcf27ba30564b0de0b98b8678dc60142a254f047abcc34ac3->enter($__internal_37b1b5790ff36c7fcf27ba30564b0de0b98b8678dc60142a254f047abcc34ac3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/twig.svg"));
+=======
+        $__internal_252571269faf30e7ccaa1e2b1bc4e694e137ae648d0500676dc89ab0231cc1f0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_252571269faf30e7ccaa1e2b1bc4e694e137ae648d0500676dc89ab0231cc1f0->enter($__internal_252571269faf30e7ccaa1e2b1bc4e694e137ae648d0500676dc89ab0231cc1f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/twig.svg"));
+
+        $__internal_0e5d5765e94dd011afcb059bc1a2ffc8fc9c17d0fcb6b82ef360109f7c1716b5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0e5d5765e94dd011afcb059bc1a2ffc8fc9c17d0fcb6b82ef360109f7c1716b5->enter($__internal_0e5d5765e94dd011afcb059bc1a2ffc8fc9c17d0fcb6b82ef360109f7c1716b5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/twig.svg"));
+>>>>>>> Stashed changes
 =======
         $__internal_252571269faf30e7ccaa1e2b1bc4e694e137ae648d0500676dc89ab0231cc1f0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
         $__internal_252571269faf30e7ccaa1e2b1bc4e694e137ae648d0500676dc89ab0231cc1f0->enter($__internal_252571269faf30e7ccaa1e2b1bc4e694e137ae648d0500676dc89ab0231cc1f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/twig.svg"));
@@ -38,15 +46,21 @@ class __TwigTemplate_308d50b6a9e7cd5ff8a69fc8438a817815f428fc3f5113ad36abd07a376
 ";
         
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         $__internal_2edad2086058bb053d0b73c842b7845dc4cb817f948dda696db24a23b8b3f331->leave($__internal_2edad2086058bb053d0b73c842b7845dc4cb817f948dda696db24a23b8b3f331_prof);
 
         
         $__internal_37b1b5790ff36c7fcf27ba30564b0de0b98b8678dc60142a254f047abcc34ac3->leave($__internal_37b1b5790ff36c7fcf27ba30564b0de0b98b8678dc60142a254f047abcc34ac3_prof);
 =======
+=======
+>>>>>>> Stashed changes
         $__internal_252571269faf30e7ccaa1e2b1bc4e694e137ae648d0500676dc89ab0231cc1f0->leave($__internal_252571269faf30e7ccaa1e2b1bc4e694e137ae648d0500676dc89ab0231cc1f0_prof);
 
         
         $__internal_0e5d5765e94dd011afcb059bc1a2ffc8fc9c17d0fcb6b82ef360109f7c1716b5->leave($__internal_0e5d5765e94dd011afcb059bc1a2ffc8fc9c17d0fcb6b82ef360109f7c1716b5_prof);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     }

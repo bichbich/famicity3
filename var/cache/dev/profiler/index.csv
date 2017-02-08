@@ -3059,6 +3059,7 @@ c20cdb,::1,GET,http://localhost/pidev/web/app_dev.php/register/,1486406292,dd750
 dd7503,::1,GET,http://localhost/pidev/web/app_dev.php/register/,1486406292,,500
 4da184,::1,GET,http://localhost/pidev/web/app_dev.php/register/,1486406343,,200
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 447100,::1,GET,http://localhost/famicity3/web/app_dev.php/,1486486652,,200
 370dfb,::1,GET,http://localhost/famicity3/web/app_dev.php/register/,1486486671,,200
 290c08,::1,GET,http://localhost/famicity3/web/app_dev.php/register/,1486487516,,200
@@ -3183,6 +3184,8 @@ f51e77,::1,POST,http://localhost/famicity3/web/app_dev.php/login_check,148654640
 55e32e,::1,GET,http://localhost/famicity3/web/app_dev.php/,1486546401,,200
 0d95a3,::1,GET,http://localhost/famicity3/web/app_dev.php/login,1486550581,,200
 =======
+=======
+>>>>>>> Stashed changes
 b22911,::1,GET,http://localhost/famicity3/web/app_dev.php/layout,1486472356,046324,200
 046324,::1,GET,http://localhost/famicity3/web/app_dev.php/layout,1486472360,,404
 b35e7f,::1,GET,http://localhost/famicity3/web/app_dev.php/home,1486472393,,200
@@ -3564,4 +3567,7 @@ e15bbf,::1,GET,http://localhost/famicity3/web/app_dev.php/register/,1486503341,,
 235d77,::1,GET,http://localhost/famicity3/web/app_dev.php/,1486503371,,200
 820cc9,::1,GET,http://localhost/famicity3/web/app_dev.php/logout,1486503379,,302
 8db026,::1,GET,http://localhost/famicity3/web/app_dev.php/,1486503380,,200
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
